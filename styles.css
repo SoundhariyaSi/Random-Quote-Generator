@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-style: italic;
+    color: black;
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.3), rgba(0, 178, 178, 0.3));
+    width: 100%;
+    text-align:center;
+
+}
+.footer
+{
+    font-size: 23px;
+    font-family: 'Dongle', sans-serif;
+     font-style: italic;
+    color: black;
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.3), rgba(0, 178, 178, 0.3));
+    text-align:center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #b0e0e6, #df87fa);
+
+  }
+  
+  #parentContainer {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  
+  #child1{
+    background: #ffc4d6;
+    width: 45%;
+    max-width: 400px;
+    min-height: 220px;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    margin-top:50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  }
+  
+  
+  #child2 {
+    background: powderblue;
+    justify-content: flex-start;
+    width: 45%;
+    max-width: 400px;
+    min-height: 180px;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-self: flex-end;
+    margin-left: 30px;
+  }
+  
+
+p {
+    color: black;
+    font-size: 17px;
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p:last-of-type{
+    margin: 10px 0;
+}
+
+button{
+    border: none;
+    outline: none;
+    margin-right: 12px;
+}
+
+a{
+    text-decoration: none;
+    display: inline block;
+    text-align:center;
+}
+.btn{
+    background: #6b68ff;
+    color: white;
+    width: 80px;
+    padding: 7px 0;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 700ms ease-in-out;
+
+}
+
+.btn:hover{
+    background: #5a57ec;
+}
+.clear-btn {
+  background: #6b68ff;
+  color: white;
+  width: 80px;
+  padding: 7px 0;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 700ms ease-in-out;
+  top: 0;
+  left: 300px; 
+}
+.clear-btn:hover{
+  background: #5a57ec;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url('C:\Users\Soundhariya\Desktop\pink_sky_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
