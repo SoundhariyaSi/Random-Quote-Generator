@@ -12,6 +12,10 @@ The Random Quote Generator is a web application built with React that allows use
 - **React**: A JavaScript library for building user interfaces.
 - **CSS**: Styling to create a visually appealing and responsive design.
 - **JavaScript**: The programming language used to build the functionality of the application.
+- ## Usage
+**Generate Quotes**: Click the "New Quote" button to generate a random quote.
+**Save Favorite Quotes**: Click the "Favorite" button to save a quote to your favorites.
+**View Favorites**: Navigate to the "Favorites" section to view and manage your saved quotes.
 
 ## Installation
 To run this project locally, follow these steps:
